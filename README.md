@@ -116,4 +116,4 @@ The icon is drawn in code by `Tools/MakeIcon.swift` on Apple's 1024 px icon grid
 
 ## License
 
-No license has been chosen yet. All rights are reserved by the author until one is added.
+Released under the [MIT License](LICENSE). Copyright (c) 2026 Illuminus7.
