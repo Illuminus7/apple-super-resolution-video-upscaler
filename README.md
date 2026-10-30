@@ -1,5 +1,9 @@
 # Apple Super Resolution Video Upscaler
 
+<p align="center">
+  <img src="Resources/screenshot.png" alt="Apple Super Resolution Video Upscaler window in dark mode" width="500">
+</p>
+
 A small macOS app that upscales video files 4× using Apple's **Super Resolution** engine from VideoToolbox. Drop a video in, press **Go**, and get a sharper, larger copy next to the original.
 
 - Native SwiftUI app, no third-party dependencies
