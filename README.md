@@ -7,6 +7,21 @@ A small macOS app that upscales video files 4× using Apple's **Super Resolution
 - Keeps the original's audio, orientation and color information
 - Writes straight to the final file: no temporary files, no logs
 
+## Install
+
+Download **AppleSuperResolutionVideoUpscaler-1.0.dmg** from the [latest release](https://github.com/Illuminus7/apple-super-resolution-video-upscaler/releases/latest), open it, and drag the app into **Applications**.
+
+The app isn't notarized by Apple, so macOS blocks it the first time. To open it:
+
+1. Try to open the app once, then close the warning.
+2. Open **System Settings → Privacy & Security**, scroll to the message about the app, and click **Open Anyway**.
+
+Or, in Terminal, remove the download quarantine flag once:
+
+```bash
+xattr -dr com.apple.quarantine "/Applications/Apple Super Resolution Video Upscaler.app"
+```
+
 ## Requirements
 
 - A Mac with Apple silicon
